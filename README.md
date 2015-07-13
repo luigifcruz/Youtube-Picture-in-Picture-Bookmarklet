@@ -2,9 +2,11 @@ Yes, now you can view your favorite videos on Youtube with PIP.
 
 I made this Bookmarklet using, of course, jQuery and Javascript. Yes it is OpenSource. \(•◡•)/
 
-Everything you need to do to install the Bookmarklet is drag the "Youtube PIP", available down below, to your "Favorites Bar". Then go to Youtube, open a video and click on the Bookmarklet. Done!
+Create a Bookmarklet and put the code down below on the them. Then go to Youtube, open a video and click on the Bookmarklet. Done!
 
-<a href='javascript:(function%20()%7Bdocument.getElementsByTagName('head')%5B0%5D.appendChild(document.createElement('script')).src='https://cdn.luigifreitas.me/script.js?'+Math.random();%7D());'>Youtube PIP</a>
+```
+javascript:(function%20()%7Bdocument.getElementsByTagName('head')%5B0%5D.appendChild(document.createElement('script')).src='https://cdn.luigifreitas.me/script.js?'+Math.random();%7D());
+```
 
 It was tested with Safari and Chrome with the HTML5 player.
 
